@@ -1,6 +1,6 @@
 # php-generic-book-cover
 
-This is a small package that generates generic book covers that
+This is a small package for generating generic book covers that
 can be used with online book displays, etc. in cases where no
 original cover is available.
 
