@@ -1,0 +1,26 @@
+{
+    "name": "scriptotek/generic-book-cover",
+    "description": "PHP package to generate generic book covers for books where no original cover is available.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyrre Traavik Låberg",
+            "email": "k.t.laberg@ub.uio.no"
+        },
+        {
+            "name": "Dan Michael O. Heggø",
+            "email": "d.m.heggo@ub.uio.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-imagick": "*",
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scriptotek\\GenericBookCover\\": "src/"
+        }
+    }
+}
