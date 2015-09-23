@@ -8,7 +8,7 @@ php:
   - nightly
 
 before_script:
-  - pecl install imagick
+  - printf "\n" | pecl install imagick
   - composer install
 
 script:
